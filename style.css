@@ -1,0 +1,65 @@
+
+body {
+  font-family: 'PT Serif', serif;
+  background-color: #e8c7ed !important; 
+  /*   background-color: #fff; */
+}
+
+.wiki-logo {
+  margin: auto;
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+
+.search-field {
+/*   border: solid; */
+  transform: scale(1.2);
+}
+
+.btn-default {
+  cursor: pointer;
+  background-color: #a5a4a5
+}
+
+.random-search {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  font-size: 1.2em;
+  font-family: 'Inconsolata', monospace;
+}
+
+.mouse-pointer {
+  transform: rotate(60deg);
+/*   border: solid; */
+}
+
+ul {
+  margin: auto;
+  margin-bottom: 10%;
+  padding:0;
+  list-style: none;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 60px;
+  font-size: 1.2em;
+  font-family: 'Inconsolata', monospace;
+  margin-top: 10%;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: underline !important;   
+  color: #000 !important; 
+}
+
+a:hover {
+   color: #840f96 !important; 
+} 
+
+footer a {
+  color: #e8c7ed !important; 
+}

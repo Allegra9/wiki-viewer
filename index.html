@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+<title>Wiki Viewer</title>
+    
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    
+<!--Style sheet -->
+<link href="style.css" rel="stylesheet" type="text/css">
+    
+<!--1.LINK FOR BOOTSTRAP--> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    
+<!--2.LINK FOR ICONS-->   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+
+<div class="container text-center">
+
+ 	<div>
+ 		<img class="wiki-logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Wikipedia-logo-v2-en.svg" alt="Wikipedia The Free Encyclopedia Logo" width=300/>
+ 	</div>
+  
+  	<div class="search-field">
+  		<input class="from-control" id="searchTerm"></input>
+      
+  		<button id="search" type="button" class="btn btn-default">Enter</button>
+	</div>
+  
+  	<div class="random-search">
+    	<img class="mouse-pointer" src="https://openclipart.org/download/239915/Mouse-Cursor-Pointer.svg" width=22 />
+    	<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Fancy a Random article?</a>
+	</div>
+  
+  <ul id="output">
+  </ul>
+        
+</div>
+     
+<footer class="text-center">
+      <p>project for <a href="https://www.freecodecamp.org/challenges/build-a-wikipedia-viewer" target="_blank">FreeCodeCamp</a>, coded by <a href="https://codepen.io/aukseallegra/" target="_blank">Allegra</a></p>
+</footer>
+
+<!--SCRIPT LINKS END OF BODY-->  
+    
+<!--4.jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+<!-- JAVASCRIPT -->
+<script src="main.js"></script>
+
+<!--5.this one for TETHER.IO-->
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    
+<!--6.JS for BOOTSTRAP-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</body>
+</html>
